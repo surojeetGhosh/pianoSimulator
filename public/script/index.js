@@ -4,5 +4,10 @@ for (var i = 0; i < keys.length; i++) {
         const id = e.target.getAttribute("id");
         let audio = new Audio("../sound/"+id+".wav");
         audio.play();
+        e.target.classList.remove("shadow");
+        setTimeout(() => {
+            e.target.classList.add("shadow");
+        }, 100)
+        
     })
 }
