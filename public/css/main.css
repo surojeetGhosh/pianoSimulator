@@ -5,9 +5,75 @@ body {
     background-color: #ECF2FF;
 }
 
+.application-main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .heading {
     word-spacing: 2;
     letter-spacing: 1rem;
     text-align: center;
     color: #635985;
+}
+
+.application {
+    background-color: #b1abfc;
+    margin: 10% 7%;
+    padding: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.keys {
+    position: relative;
+    width: 100%;
+    border: black solid;
+    border-width: 0.1rem;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4);
+}
+.keys:first-child {
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.keys:last-child {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.keys > p {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.white {
+    background-color: white;
+    padding: 15% 0%;
+    z-index: 0;
+}
+
+.black {
+    background-color: black;
+    color: white;
+    width: 50%;
+    padding: 1% 0%;
+    z-index: 1;
+}
+.footer {
+    margin: 0;
+    padding: 3% 0 2% 0;
+    width: 100%;
+    text-align: center;
+    background-color: #8190b3;
+}
+
+.footer > p {
+    margin: 0;
+    letter-spacing: 0.5rem;
+    margin-bottom: 0.2rem;
 }
