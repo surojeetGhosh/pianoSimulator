@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: #ECF2FF;
+}
+
+.heading {
+    word-spacing: 2;
+    letter-spacing: 1rem;
+    text-align: center;
+    color: #635985;
+}
