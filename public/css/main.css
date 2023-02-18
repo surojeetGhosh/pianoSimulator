@@ -24,7 +24,6 @@ body {
     margin: 10% 7%;
     padding: 4%;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -58,11 +57,13 @@ body {
 }
 
 .black {
+    
     background-color: black;
     color: white;
     width: 50%;
-    padding: 1% 0%;
     z-index: 1;
+    align-self: flex-start;
+    padding: 10% 0;
 }
 .footer {
     margin: 0;
